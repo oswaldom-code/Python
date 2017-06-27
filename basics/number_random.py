@@ -1,12 +1,11 @@
+#########################################
+## Name: number_random.py
+## By @oswaldom876
+########################################
+
 # -*- coding: utf-8 -*-
 import random
 import os
-
-
-
-
-
-
 
 def run():
     number_found = False
@@ -33,7 +32,7 @@ def run():
                
         else:
             print('\aMejor intenta con un número más alto..')       
-        
+  
 
 
 #funtion of  aleatorio number claculation
