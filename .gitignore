@@ -1,0 +1,7 @@
+
+#ignore folders
+.vscode/
+basics/webScraping/env1/
+
+#ignore file image
+*.jpg
