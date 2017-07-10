@@ -1,7 +1,11 @@
 
 #ignore folders
 .vscode/
-basics/webScraping/env1/
+env1/
+env/
+google-cloud-sdk/
+basics/googleCloud/lib/
+
 
 #ignore file image
 *.jpg
