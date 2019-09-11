@@ -5,6 +5,8 @@ env1/
 env/
 google-cloud-sdk/
 basics/googleCloud/lib/
+/Selenium/entornos
 
 
 #ignore file image
+.vscode/settings.json
