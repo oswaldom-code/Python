@@ -15,7 +15,7 @@ url_semilla = "http://www.cne.gob.ve/web/registro_electoral/ce.php?"
 
 # Parametros a incluir en la url 
 nacionalidad = 'V'
-cedula = '14147068'
+cedula = '16132256'
 
 # Url final
 url_compuesta = url_semilla + 'nacionalidad=' + nacionalidad + '&' + 'cedula=' + cedula

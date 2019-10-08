@@ -1,0 +1,32 @@
+1565406643232	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Beba\\AppData\\Local\\Temp\\rust_mozprofile.EmULq0BZ1rno"
+1565406669598	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1565406669700	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1565406669713	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1565406669728	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1565406740437	Marionette	INFO	Listening on port 50304
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221565395212294%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+[Parent 4860, Gecko_IOThread] WARNING: file z:/task_1563378307/build/src/ipc/chromium/src/base/process_util_win.cc, line 160
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 269: TypeError: this._builder is undefined
+[Parent 4860, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563378307/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E00A0,name=PBrowser::Msg_UpdateNativeWindowHandle) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1E008F,name=PBrowser::Msg_Destroy) Closed channel: cannot send/recv
+
+[Child 1876, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1563378307/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x1E0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+
+JavaScript error: resource:///actors/AboutReaderChild.jsm, line 80: NS_ERROR_UNEXPECTED: 
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x35011D,name=PContent::Msg_DetachBrowsingContext) Closed channel: cannot send/recv
+
