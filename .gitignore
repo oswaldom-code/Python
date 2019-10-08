@@ -10,3 +10,6 @@ basics/googleCloud/lib/
 
 #ignore file image
 .vscode/settings.json
+
+#log file
+*.log
