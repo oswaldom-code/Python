@@ -1,14 +1,14 @@
 # ¿Por qué Python?
 
-_Como todos sabemos el dominar cualquier lenguaje de programación conlleva una inversión considerable de tiempo, por esta razón somos cuidadosos a la hora de elegir en que lenguaje enfocar nuestro valioso tiempo. En lo personal, debo admitir que vengo del mundo Java y cuando vi por primera vez en la universidad Python no me llamó la atención para nada, estaba convencido que Java era lo máximo y que estudiar Python era perder el tiempo. Sin embargo, el tiempo se ha encargado de hacerme comer mis falsas apreciaciones este lenguaje.
+_Como todos sabemos el dominar cualquier lenguaje de programación conlleva una inversión considerable de tiempo, por esta razón somos cuidadosos a la hora de elegir en que lenguaje enfocar nuestro valioso tiempo. En lo personal, debo admitir que vengo del mundo Java y cuando vi por primera vez en la universidad a Python no me llamó la atención para nada, estaba convencido que Java era lo máximo y que estudiar Python era perder el tiempo. Sin embargo, el tiempo se ha encargado de hacerme comer mis falsas y apresuradas apreciaciones de este potente lenguaje de programación.
 
-_A continuación brevemente expreso las razones por las cuales desde hace algún tiempo  decidí capitular ante este lenguaje y dejarme de andarle por las ramas con él y enseriarme de verdad, dejar de tener códigos de prueba aislados y concentrarlos en este repositorio.
+_A continuación brevemente expreso las principales razones por las cuales desde hace algún tiempo  decidí capitular ante este lenguaje y dejarme de andarle por las ramas con él y enseriarme de verdad, dejar de tener códigos de prueba aislados y concentrarlos en este repositorio.
 
 _Python es un lenguaje de programación que en la actualidad es muy popular y ha sido pieza principal para grandes proyectos, como también ha introducido prácticas innovadoras a la hora de programar.
 
-_Existe una enorme comunidad  de información, cursos, tutoriales y ejemplos en internet  que facilitan el proceso de asimilar el lenguaje.
+_Existe una enorme comunidad, mucha información, cursos, tutoriales y ejemplos en internet  que facilitan el proceso de asimilar el lenguaje.
 
-_Progresivamente a avanzando en el Rank de popularidad y a la vez el volumen de demanda de profesionales con este skill.
+_Progresivamente ha avanzando en el Ranking de popularidad y a la vez el volumen de demanda de profesionales con este skill.
 
 _Según el [índice TIOBE de Julio del 2019](https://www.tiobe.com/tiobe-index/); Python se posicionó en el tercer puesto de lenguajes de programación más popular del mundo solo por debajo de Java y C. Sin embargo, fuel el que registró el mayor crecimiento de todos con un 2.9% con respecto al año anterior.
  
