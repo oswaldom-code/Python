@@ -29,7 +29,7 @@ Lo primero es importar las librerías que nos permitirán manipular el contenido
 url_semilla = "http://www.cne.gob.ve/web/registro_electoral/ce.php?"
 
 ```
-_  Los valores como mencionamos anteriormente son la nacionalidad, que deberá ser un caracter en mayúscula **V** para ciudadano venezolano o **E** para ciudadanos extranjeros. Y **cedula** que es el número de identidad. Por ahora creo que rondan por el orden de los 30millones, es decir, la cedula es un numero entero de máximo ocho (8) dígitos.
+_  Los valores como mencionamos anteriormente son la nacionalidad, que deberá ser un carácter en mayúscula **V** para ciudadano venezolano o **E** para ciudadanos extranjeros. Y **cedula** que es el número de identidad. Por ahora creo que rondan por el orden de los 30millones, es decir, la cedula es un numero entero de máximo ocho (8) dígitos.
 
 # Parámetros a incluir en la url 
 
@@ -38,7 +38,7 @@ nacionalidad = 'V'
 cedula = '14147068'
 
 ```
-_  Para esta prácticas vamos a usar datos estáticos, pero posteriormente lo haremos de forma dinámica.
+_  Para esta práctica vamos a usar datos estáticos, pero posteriormente lo haremos de forma dinámica.
 
 _  Ya conociendo la **url_semilla** y los datos a consultar, construimos lo que yo denominé la **url_compuesta**, que es la url_semilla concatenada con los valores necesarios para realizar la consulta.
 
@@ -92,9 +92,9 @@ _  **Una vez dicho todo lo anterior solo nos queda centrarnos en la verdadera l�
 
 _  En la línea 3 declaro una lista vacía, en ella voy a almacenar los datos raspados.
 
-_  En la línea 5 inicio un bucle **for** para recorrer la estructura HTML. Haciendo uso de la función **find_all** buscamos todas las etiquetas de tipo **<td>**, ya que previamente inspeccionamos la web y sabemos que los datos que nos interesan están dentro de unas etiquetas **<td>**.
+_  En la línea 5 inicio un bucle **for** para recorrer la estructura HTML. Haciendo uso de la función **find_all** buscamos todas las etiquetas de tipo **\<td>**, ya que previamente inspeccionamos la web y sabemos que los datos que nos interesan están dentro de unas etiquetas **\<td>**.
 
-_  Pero resulta que en el HTML hay varias etiquetas **<td>** de diferentes niveles, pero las que nos interesan están entre el nivel 10 y el 24. El resto de los niveles también contienen los datos pero con mucha “basura” o texto que no es de nuestro interés.
+_  Pero resulta que en el HTML hay varias etiquetas **\<td>** de diferentes niveles, pero las que nos interesan están entre el nivel 10 y el 24. El resto de los niveles también contienen los datos pero con mucha “basura” o texto que no es de nuestro interés.
 
 _  Al recorrer las etiquetas <td> que se encuentra entre los niveles  10 al 24 tomará el contenido de dicha etiquetas y los almacenará en la variable **contenido**, posteriormente en la  línea 6 extraemos de la variable **contenido** el texto  y se lo asignamos a la variable **dato**.
 

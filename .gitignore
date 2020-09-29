@@ -6,10 +6,11 @@ env/
 google-cloud-sdk/
 basics/googleCloud/lib/
 /Selenium/entornos
+/ScrapingCNE/__pycache__
 
 
 #ignore file image
-.vscode/settings.json
+.vscode/
 
 #log file
 *.log

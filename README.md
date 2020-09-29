@@ -22,3 +22,6 @@ _Es por estas razones que decidí invertir mi tiempo en este lenguaje de program
 ## Comenzando 🚀
 
 _ Aquí ire colocando referencias al código que iré cargando al repo.
+
+1. [/ScrapingCNE:](https://github.com/oswaldom-code/Python/tree/master/ScrapingCNE)
+    En muchas ocasiones necesite consultar datos de la web oficial de Consejo Nacional Electoral (CNE), generalmente esto se realiza ingresando individualmente los número de identificación de las personas. Pero para ahorrarme el trabajo pesado y ser eficiente me cree un micro bot que me permite tomar los números de identificación precargados en un archivo .CSV, realizar las consultas en la web del CNE y tomar los datos de interés haciendo scraping sobre ella. Simple pero genail. 👍
