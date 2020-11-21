@@ -1,5 +1,5 @@
-# -*- coding: utf-8 -*-
-import csv
+import csv, os.path
+
 
 
 class Contact:
@@ -52,7 +52,7 @@ class ContactBook:
         print('Nombre: {}'.format(contact.name))
         print('Teléfono: {}'.format(contact.phone))
         print('Email: {}'.format(contact.email))
-        print('--- * --- * --- * --- * --- * --- * --- * ---')
+        
 
     def _not_found(self):
         print('*******')
@@ -63,17 +63,22 @@ class ContactBook:
 def run():
 
     contact_book = ContactBook()
-    if 'contacts.csv':
-        with open('contacts.csv', 'r') as f:
-            reader = csv.reader(f)
-            for idx, row in enumerate(reader):
-                if idx == 0:
-                    continue
+    if os.path.isfile('contacts.csv'):
+        print('Existe')
+    else:
+        if True:
+            with open('contacts.csv', 'r') as f:
+                reader = csv.reader(f)
+                for idx, row in enumerate(reader):
+                    if idx == 0:
+                        continue
 
-                contact_book.add(row[0], row[1], row[2])
+                    contact_book.add(row[0], row[1], row[2])
+
+    
 
     while True:
-        command = str(raw_input('''
+        command = str(input('''
             ¿Qué deseas hacer?
 
             [a]ñadir contacto
@@ -82,12 +87,13 @@ def run():
             [e]liminar contacto
             [l]istar contactos
             [s]alir
+            Ingrese opción:
         '''))
 
         if command == 'a':
-            name = str(raw_input('Escribe el nombre del contacto: '))
-            phone = str(raw_input('Escribe el tel del contacto: '))
-            email = str(raw_input('Escribe el email del contacto: '))
+            name = str(input('Escribe el nombre del contacto: '))
+            phone = str(input('Escribe el tel del contacto: '))
+            email = str(input('Escribe el email del contacto: '))
 
             contact_book.add(name, phone, email)
 
@@ -96,12 +102,12 @@ def run():
 
         elif command == 'b':
 
-            name = str(raw_input('Escribe el nombre del contacto: '))
+            name = str(input('Escribe el nombre del contacto: '))
 
             contact_book.search(name)
 
         elif command == 'e':
-            name = str(raw_input('Escribe el nombre del contacto: '))
+            name = str(input('Escribe el nombre del contacto: '))
 
             contact_book.delete(name)
 
